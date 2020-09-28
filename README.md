@@ -24,3 +24,6 @@
 //add all webdrivers to env/bin
 
     >git rm --cached -r .idea
+    
+//run test with:
+    >pytest -v
