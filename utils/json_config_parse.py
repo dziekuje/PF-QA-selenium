@@ -1,7 +1,7 @@
 import json
 
 
-FILE = 'json_config_data.json'
+FILE = './json_config_data.json'
 
 
 def get_json():
@@ -25,4 +25,4 @@ def get_mainurl():
     return x['mainurl']
 
 
-# print(get_browser())
+print(get_browser())
